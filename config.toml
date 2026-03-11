@@ -9,7 +9,7 @@ defaultContentLanguage = "en"
     name = "Dr. Arwa Abdelkawy Hussein"
     tagline = "Intern dentist"
     graduation = "Graduated 2025 - Egyptian Russian University"
-    profile_image = "https://github.com/user-attachments/assets/1e58753c-8083-4dc9-a2b3-ad5c6198348a"
+    profile_image = "https://github.com/user-attachments/assets/386e6766-69d4-4986-b042-b3046a54775e"
     profile_image_alt = "Profile photo of Dr. Arwa Abdelkawy Hussein"
     
     [params.hero.current_position]
