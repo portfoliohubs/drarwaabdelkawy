@@ -1,0 +1,377 @@
+2baseURL = "https://portfoliohubs.github.io/drarwaabdelkawy/"
+languageCode = "en-us"
+title = "Dr. Arwa Abdelkawy Hussein"
+defaultContentLanguage = "en"
+
+[params]
+  # Hero Section
+  [params.hero]
+    name = "Dr. Arwa Abdelkawy Hussein"
+    tagline = "Intern dentist"
+    graduation = "Graduated 2025 - Egyptian Russian University"
+    profile_image = "https://github.com/user-attachments/assets/1e58753c-8083-4dc9-a2b3-ad5c6198348a"
+    profile_image_alt = "Profile photo of Dr. Arwa Abdelkawy Hussein"
+    
+    [params.hero.current_position]
+      role = "Intern dentist"
+      clinic = "Intern dentist at Egyptian Russian University"
+
+  [params.seo]
+    description = "دكتور أروى عبدالقوى حسين الجامعة المصرية الروسية"
+    doctor_name_en = "Dr. Arwa Abdelkawy Hussein"
+    doctor_name_ar = "د. أروى عبدالقوى حسين"
+    site_name = "Dr. Arwa Abdelkawy Hussein"
+    og_image = "https://github.com/user-attachments/assets/08680845-3e2d-40a8-921f-2d41e814c6be"
+    favicon_image = ""
+    twitter_handle = ""
+    keywords = [
+      "dentist",
+      "dental clinic",
+      "cosmetic dentistry",
+      "restorative dentistry",
+      "Dr. Arwa Abdelkawy Hussein",
+      "Egyptian Russian University",
+      "DENTIST IN EGYPT",
+      "DENTAL CLINIC IN EGYPT",
+      "DENTAL CLINIC"
+    ]
+    keywords_ar = [
+      "طبيب أسنان",
+      "عيادة أسنان",
+      "تجميل الأسنان",
+      "ترميم الأسنان",
+      "د. أروى عبدالقوى حسين",
+      "طبيبة أسنان",
+      "الجامعة المصرية الروسية",
+      "دكتور أروى عبدالقوى",
+      "عيادة أروى عبدالقوى",
+      "طبيبة اسنان مصرية"
+    ]
+
+  [params.integrations]
+    google_search_console_verification = "6VtKNI5qnSYsfjCTBMfnm9PuZjjR7aYh6crmofpS8yw"
+    google_analytics_measurement_id = ""
+
+  [params.ui]
+    [params.ui.nav]
+      profile = "Profile"
+      skills = "Skills"
+      education = "Education"
+      clinical_cases = "Clinical Cases"
+      cases_short = "Cases"
+      blog = "Blog"
+      contact = "Contact"
+
+    [params.ui.skills]
+      title = "Professional Skills"
+      clinical_title = "Clinical Skills"
+      digital_title = "Digital Skills"
+      soft_title = "Soft Skills"
+
+    [params.ui.education]
+      title = "Education & Timeline"
+      graduated_label = "Graduated"
+      career_timeline_title = "Career Timeline"
+      courses_title = "Courses & Certifications"
+
+    [params.ui.cases]
+      title = "Clinical Cases"
+      subtitle = "Clinical Cases Gallery"
+
+    [params.ui.blog]
+      title = "Latest Articles"
+      subtitle = "Insights and Knowledge"
+      empty_text = "No blog posts yet"
+
+    [params.ui.contact]
+      title = "Get In Touch"
+      subtitle = "Let's connect and collaborate"
+      follow_me_title = "Follow Me"
+
+    [params.ui.labels]
+      now_working_as = "Now working as"
+      at = "at"
+      phone = "Phone"
+      whatsapp = "WhatsApp"
+      email = "Email"
+      location = "Location"
+      get_directions = "Get Directions"
+      masters_degree = "Master's Degree"
+      phd_degree = "PhD Degree"
+      rights_reserved = "All rights reserved"
+
+  # Skills Section
+  [params.skills]
+    clinical = [
+      "Endo",
+      "Communication",
+      "pediatric patient management"
+    ]
+    
+    digital = [
+      "cadcam",
+      "powerpoint"
+    ]
+    
+    soft = [
+      "Communication",
+      "pediatric patient management"
+    ]
+
+  # Education Section
+  [params.education]
+    university = "Egyptian Russian University"
+    graduation_year = "2025"
+    
+    [params.education.master]
+      obtained = false
+      title = "Master in Oral Medicine"
+      year = "2024"
+    
+    [params.education.phd]
+      obtained = false
+      title = "PhD in Dental Sciences"
+      year = "2028"
+    
+    [[params.education.timeline]]
+      year = "2020"
+      event = "Start faculty of dentistry"
+    
+    [[params.education.timeline]]
+      year = "2025"
+      event = "Graduated from faculty of dentistry"
+    
+    # Certificates (images will be uploaded via GitHub issues)
+    # [[params.education.certificates]]
+    #   title = "Advanced Endodontics Course"
+    #   image = "cert1.jpg"
+  # Clinical Cases Section
+  [[params.clinical_cases]]
+    enabled = true
+    category = "periosurgery"
+    category_ar = "جراحة اللثة"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/0c0b80fe-3c1d-42de-abf2-b6eb12f47f7b"
+      alt = "young man 25 years old with racial pegmentation which became heavy by smoking ttt removal by scalpel"
+      description = "young man 25 years old with racial pegmentation which became heavy by smoking ttt removal by scalpel"
+      alt_ar = "شاب سنه 25 عنده تصبغات عرقية زادت مع العمر بسبب التدخين عملنا إزالة للتصبغات باستخدام المشرط"
+      description_ar = "شاب سنه 25 عنده تصبغات عرقية زادت مع العمر بسبب التدخين عملنا إزالة للتصبغات باستخدام المشرط"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Cosmetic"
+    category_ar = "تجميل"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/028a72ab-b426-497a-bf0a-b1eb9011bebb"
+      alt = "Direct Veneer"
+      description = "Direct Veneer"
+      alt_ar = "مريضة عندها حشوات امامية قديمة فيها تصبغات"
+      description_ar = "مريضة عندها حشوات امامية قديمة فيها تصبغات"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Pediatric"
+    category_ar = "اطفال"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/fc507a1f-dfc2-44b2-a6b4-9b8b8e95316e"
+      alt = "patient 10 years old with irreversible pulpiitis in mature lower right 6 Procedure MTA pulpotomy"
+      description = "patient 10 years old with irreversible pulpiitis in mature lower right 6 Procedure MTA pulpotomy"
+      alt_ar = "مريضة عندها 12 سنة و الدرس السادس مكتمل النمو و التسوس وصل للعصب"
+      description_ar = "مريضة عندها 12 سنة و الدرس السادس مكتمل النمو و التسوس وصل للعصب"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Fixed"
+    category_ar = "تركيبات ثابتة"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/262b69da-dd59-474e-9c48-dc3e4d2cd23b"
+      alt = "bride replace lower 6"
+      description = "bride replace lower 6"
+      alt_ar = "مريضة عندها 50 سنة عندها الدرس السادس مفقود"
+      description_ar = "مريضة عندها 50 سنة عندها الدرس السادس مفقود"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/336c68fc-5d59-4136-a84a-07fddf192524"
+      alt = "Long span bridge replace lower 5,6"
+      description = "Long span bridge replace lower 5,6"
+      alt_ar = "كوبرى لتعويض الدرس الخامس و السادس"
+      description_ar = "كوبرى لتعويض الدرس الخامس و السادس"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Operative"
+    category_ar = "حشو"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/5a8bef28-08d5-4643-9da0-6cb33ed8fb4b"
+      alt = "Direct pulp capping"
+      description = "Direct pulp capping"
+      alt_ar = "مريض عنده تسوس فى الناب"
+      description_ar = "مريض عنده تسوس فى الناب"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/f443593d-d3e3-431e-a879-1c4c1d750220"
+      alt = "Class IV in Upper Certain"
+      description = "Class IV in Upper Certain"
+      alt_ar = "حشوة فى السنة رقم 1"
+      description_ar = "حشوة فى السنة رقم 1"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/576a6e96-380c-4d8a-bd3a-90a8d1c19be3"
+      alt = "Class I in lower 6,7"
+      description = "Class I in lower 6,7"
+      alt_ar = "تسوس فى الدرس السادس و السابع"
+      description_ar = "تسوس فى الدرس السادس و السابع"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Removable"
+    category_ar = "تركيبات متحركة"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/5e71d614-f073-43d2-9734-146241acfa1d"
+      alt = "upper Compelete edentioulos and partial dentate lower arch"
+      description = "upper Compelete edentioulos and partial dentate lower arch"
+      alt_ar = "مريضة سودانية عندعا الفك العلوى كله أسنانه مفقود و الفك السفلى جزئى"
+      description_ar = "مريضة سودانية عندعا الفك العلوى كله أسنانه مفقود و الفك السفلى جزئى"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/cfd06e66-f646-48f0-bdf4-9cdf332ab3ed"
+      alt = "complete Edentioulos"
+      description = "complete Edentioulos"
+      alt_ar = "مريض فاقد كل أسنانه العلوية و السفلية"
+      description_ar = "مريض فاقد كل أسنانه العلوية و السفلية"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Endo"
+    category_ar = "حشو عصب"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/23a6538b-b533-41b0-a940-6b570aabe68f"
+      alt = "Endo in upper 5"
+      description = "Endo in upper 5"
+      alt_ar = "حشو عصب فى الدرس الخامس"
+      description_ar = "حشو عصب فى الدرس الخامس"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/ba4bf9cd-3f22-4cc7-8a51-efb83d394ac0"
+      alt = "Endo in Upper 6"
+      description = "Endo in Upper 6"
+      alt_ar = "حشو عصب الدرس السادس"
+      description_ar = "حشو عصب الدرس السادس"
+      
+  # Contact Section
+  [params.contact]
+    phone = "+201026198975"
+    whatsapp = "+201026198972"
+    email = "203207@eru.edu.eg"
+    instagram = ""
+    facebook = "https://www.facebook.com/arwa.abdelkawy.3"
+    linkedin = ""
+    
+    [params.contact.location]
+      enabled = true
+      address = "Egyptian Russian University"
+      latitude = "30.14235097337137"
+      longitude = "31.719243747890822"
+
+# Arabic Translations
+[params.ar]
+  [params.ar.hero]
+    name = "د. أروى عبدالقوى حسين"
+    tagline = "طبيبة إمتياز"
+    graduation = "تخرج 2025 - الجامعة المصرية الروسية"
+    profile_image_alt = "صورة الملف الشخصي للدكتورة أروى عبدالقوى حسين"
+    
+    [params.ar.hero.current_position]
+      role = "طبيبة إمتياز"
+      clinic = "طبيبة إمتياز فى الجامعة المصرية الروسية"
+  
+[params.ar.skills]
+    clinical = [
+      "حشو عصب",
+      "Communication",
+      "pediatric patient management"
+    ]
+    
+    digital = [
+      "cadcam",
+      "powerpoint"
+    ]
+    
+    soft = [
+      "Communication",
+      "pediatric patient management"
+    ]
+    
+  
+  [params.ar.education]
+    university = "الجامعة المصرية الروسية"
+    
+    [params.ar.education.master]
+      title = "ماجستير في طب الفم"
+    
+    [params.ar.education.phd]
+      title = "دكتوراه في علوم الأسنان"
+    
+    [[params.ar.education.timeline]]
+      event = "2020 الدخول الى الكليه"
+    
+    [[params.ar.education.timeline]]
+      event = "2025 التخرج من الكليه"  
+
+  [params.ar.contact.location]
+    address = "الجامعة المصرية الروسية"
+
+  [params.ar.ui]
+    [params.ar.ui.nav]
+      profile = "الملف الشخصي"
+      skills = "المهارات"
+      education = "التعليم"
+      clinical_cases = "الحالات السريرية"
+      cases_short = "الحالات"
+      blog = "المدونة"
+      contact = "التواصل"
+
+    [params.ar.ui.skills]
+      title = "المهارات المهنية"
+      clinical_title = "المهارات السريرية"
+      digital_title = "المهارات الرقمية"
+      soft_title = "المهارات الشخصية"
+
+    [params.ar.ui.education]
+      title = "التعليم والخط الزمني"
+      graduated_label = "تخرج"
+      career_timeline_title = "الخط الزمني المهني"
+      courses_title = "الدورات والشهادات"
+
+    [params.ar.ui.cases]
+      title = "الحالات السريرية"
+      subtitle = "معرض الحالات السريرية"
+
+    [params.ar.ui.blog]
+      title = "أحدث المقالات"
+      subtitle = "رؤى ومعرفة"
+      empty_text = "لا توجد مقالات بعد. أضف أول مقال في config.toml"
+
+    [params.ar.ui.contact]
+      title = "تواصل معي"
+      subtitle = "لنتواصل ونتعاون"
+      follow_me_title = "تابعني"
+
+    [params.ar.ui.labels]
+      now_working_as = "أعمل حالياً ك"
+      at = "في"
+      phone = "الهاتف"
+      whatsapp = "واتساب"
+      email = "البريد"
+      location = "الموقع"
+      get_directions = "احصل على الاتجاهات"
+      masters_degree = "درجة الماجستير"
+      phd_degree = "درجة الدكتوراه"
+      rights_reserved = "جميع الحقوق محفوظة"
