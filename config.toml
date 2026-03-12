@@ -9,7 +9,7 @@ defaultContentLanguage = "en"
     name = "Dr. Arwa Abdelkawy Hussein"
     tagline = "Intern dentist"
     graduation = "Graduated 2025 - Egyptian Russian University"
-    profile_image = "https://github.com/user-attachments/assets/386e6766-69d4-4986-b042-b3046a54775e"
+    profile_image = ""
     profile_image_alt = "Profile photo of Dr. Arwa Abdelkawy Hussein"
     
     [params.hero.current_position]
@@ -232,12 +232,7 @@ defaultContentLanguage = "en"
     category = "Removable"
     category_ar = "تركيبات متحركة"
     
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/5e71d614-f073-43d2-9734-146241acfa1d"
-      alt = "upper Compelete edentioulos and partial dentate lower arch"
-      description = "upper Compelete edentioulos and partial dentate lower arch"
-      alt_ar = "مريضة سودانية عندعا الفك العلوى كله أسنانه مفقود و الفك السفلى جزئى"
-      description_ar = "مريضة سودانية عندعا الفك العلوى كله أسنانه مفقود و الفك السفلى جزئى"
+    
 
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/cfd06e66-f646-48f0-bdf4-9cdf332ab3ed"
@@ -255,15 +250,15 @@ defaultContentLanguage = "en"
       photo = "https://github.com/user-attachments/assets/23a6538b-b533-41b0-a940-6b570aabe68f"
       alt = "Endo in upper 5"
       description = "Endo in upper 5"
-      alt_ar = "حشو عصب فى الدرس الخامس"
-      description_ar = "حشو عصب فى الدرس الخامس"
+      alt_ar = "حشو عصب فى الضرس الخامس"
+      description_ar = "حشو عصب فى الضرس الخامس"
 
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/ba4bf9cd-3f22-4cc7-8a51-efb83d394ac0"
       alt = "Endo in Upper 6"
       description = "Endo in Upper 6"
-      alt_ar = "حشو عصب الدرس السادس"
-      description_ar = "حشو عصب الدرس السادس"
+      alt_ar = "حشو عصب الضرس السادس"
+      description_ar = "حشو عصب الضرس السادس"
       
   # Contact Section
   [params.contact]
